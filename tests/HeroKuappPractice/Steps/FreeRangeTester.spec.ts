@@ -4,7 +4,7 @@ import { test, Browser, Page, expect } from '@playwright/test';
   let browser: Browser;
   let page: Page;
  
-  test.describe('Navegación en www.freerangetesters.com', () => {
+  test.describe('Navegación en www.freerangetesters.com de practica', () => {
  
     const secciones = [
       { nombre: 'Academia', url: '/academia', tituloEsperado: 'Academia' },
