@@ -9,7 +9,7 @@ export class HeroKuappDownloadPage {
     constructor(page: Page) {
         this.page = page;
         this.titleLabel = page.getByRole('heading', { name: 'File Downloader' })
-        this.downloadElement = page.locator("//a[normalize-space()='sample_file.txt']")
+        this.downloadElement = page.locator("//a[normalize-space()='sample_upload.txt']")
     }
 
 }
